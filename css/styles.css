@@ -1,0 +1,14 @@
+
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+h1{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+#title{
+  background-color: #ff4c68;
+}
