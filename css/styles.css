@@ -15,6 +15,11 @@ h1{
   color: white;
 }
 
+h3{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 1.5rem;
+}
+
 #title{
   background-color: #781CB5;
 }
@@ -59,10 +64,36 @@ h1{
 }
 
 /* Features Area */
-#features .col-md-4{
+#features{
+  margin: 3rem 0;
+}
+
+#features .container-fluid{
+  width: 80%;
+}
+
+#features .col-lg-4{
   text-align: center;
+  padding: 7rem 0;
 }
 
 #features .fas{
+  color: #781CB5;
+  padding: 3rem;
   font-size: 5rem;
+  transition: 0.4s;
+}
+
+#features .fas:hover{
+  color: #BB00FF;
+}
+
+#features p{
+  color: #8f8f8f;
+  padding: 0 20%;
+}
+
+/* Testimonials Section */
+#testimonials{
+  background-color: #781CB5;
 }
