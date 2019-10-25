@@ -20,11 +20,11 @@ h3{
   font-size: 1.5rem;
 }
 
-#title{
+.title{
   background-color: #781CB5;
 }
 
-#title .container-fluid{
+.title .container-fluid{
   padding: 0 15% 3% 15%;
 }
 
@@ -64,36 +64,36 @@ h3{
 }
 
 /* Features Area */
-#features{
+.features{
   margin: 3rem 0;
 }
 
-#features .container-fluid{
+.features .container-fluid{
   width: 80%;
 }
 
-#features .col-lg-4{
+.features .col-lg-4{
   text-align: center;
   padding: 7rem 0;
 }
 
-#features .fas{
+.features .fas{
   color: #781CB5;
   padding: 3rem;
   font-size: 5rem;
   transition: 0.4s;
 }
 
-#features .fas:hover{
+.features .fas:hover{
   color: #BB00FF;
 }
 
-#features p{
+.features p{
   color: #8f8f8f;
   padding: 0 20%;
 }
 
 /* Testimonials Section */
-#testimonials{
+.testimonials{
   background-color: #781CB5;
 }
