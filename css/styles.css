@@ -7,6 +7,7 @@ h1{
   font-family: 'Montserrat-Black', sans-serif;
   line-height: 1.5;
   font-size: 3rem;
+  color: white;
 }
 
 #title{
@@ -20,4 +21,10 @@ h1{
 .navbar{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.vertical-center{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
