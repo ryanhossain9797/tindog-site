@@ -108,8 +108,8 @@ h3{
   padding: 7rem;
 }
 
-.testimonials .container-fluid{
-  width: 80%;
+.testimonials .container-fluid .carousel-item{
+  padding: 0 15rem;
 }
 
 .testimonial-image{
