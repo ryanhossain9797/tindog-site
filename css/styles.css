@@ -55,7 +55,7 @@ h3{
 
 /* Download Prompt Area */
 .dl-prompt{
-  margin: 10% 0;
+  margin: 6rem 0;
 }
 
 .dl-btn{
@@ -66,13 +66,15 @@ h3{
 .title-image{
   width: 60%;
   display: block;
-  margin: auto;
+  margin: 5rem auto -20rem auto;
   transform: rotate(20deg);
 }
 
 /* Features Area */
 .features{
-  margin: 3rem 0;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .features .container-fluid{
@@ -134,4 +136,20 @@ h3{
 .press img{
   width: 10rem;
   padding-top: 3rem;
+}
+
+/* Pricing Section */
+
+.pricing{
+  text-align: center;
+  padding: 7rem;
+  padding: 5% 20%
+}
+
+.pricing .card{
+  margin: 1rem;
+}
+
+.pricing .card .btn{
+  margin-top: auto;
 }
