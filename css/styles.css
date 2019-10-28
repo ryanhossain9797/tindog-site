@@ -1,164 +1,179 @@
 
-/*
-font-family: 'Ubuntu', sans-serif;
-font-family: 'Montserrat', sans-serif;
-*/
-
-body{
-  font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat";
+  text-align: center;
 }
 
-h1{
-  font-family: 'Montserrat-Black', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
   line-height: 1.5;
-  font-size: 5rem;
-  color: #FFFFFF;
 }
 
-h2{
-  font-family: 'Montserrat-Bold', sans-serif;
+.section-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
 
-h3{
-  font-family: 'Montserrat-Bold', sans-serif;
-  font-size: 1.5rem;
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
-.title{
-  background-color: #781CB5;
+.nav-item {
+  padding: 0 18px;
 }
 
-.title .container-fluid{
-  padding: 0 15% 3% 15%;
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
 }
 
-/* Navbar Area */
-.navbar{
-  padding: 2rem 0;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1.5rem;
-  font-weight: bold;
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
 }
 
-.navbar-brand{
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 3rem;
-  font-weight: bold;
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
 }
 
-.nav-item{
-  padding: 0 1rem;
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
-/* Download Prompt Area */
-.dl-prompt{
-  margin: 6rem 0;
-}
+/* Title Image */
 
-.dl-btn{
-  margin: 1rem 1rem 0 0;
-}
-
-/* Image Area */
-.title-image{
+.title-image {
   width: 60%;
-  display: block;
-  margin: 5rem auto -20rem auto;
-  transform: rotate(20deg);
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
-@media (max-width: 900px) {
-  .title-image{
-    width: 60%;
-    display: block;
-    margin: 5rem auto 5rem auto;
-    transform: rotate(0deg);
-  }
-}
+/* Features Section */
 
-/* Features Area */
-.features{
-  background-color: white;
+#features {
   position: relative;
-  z-index: 1;
 }
 
-.features .container-fluid{
-  width: 80%;
-}
-
-.features .col-xl-4{
-  text-align: center;
-  padding: 7rem 0;
-}
-
-.features .fas{
-  color: #781CB5;
-  padding: 3rem;
-  font-size: 5rem;
-  transition: 0.4s;
-}
-
-.features .fas:hover{
-  color: #BB00FF;
-}
-
-.features p{
-  color: #8F8F8F;
-  padding: 0 20%;
-}
-
-/* Testimonials Section */
-.testimonials{
-  background-color: #BB00FF;
-  text-align: center;
-  color: #FFFFFF;
-  padding: 7rem;
-}
-
-.testimonials .container-fluid .carousel-item{
-  padding: 0 15rem;
-}
-
-.testimonial-image{
-  border-radius: 100%;
-  margin: 1.5rem;
-  width: 10rem;
-}
-
-.testimonials em{
+.feature-title {
   font-size: 1.5rem;
 }
 
-/* Press Section */
-.press{
-  background-color: #BB00FF;
-  text-align: center;
-  padding-left: 15rem;
-  padding-right: 15rem;
-  padding-bottom: 5rem;
+.feature-box {
+  padding: 4.5%;
 }
 
-.press img{
-  width: 10rem;
-  padding-top: 3rem;
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
 /* Pricing Section */
 
-.pricing{
-  text-align: center;
-  padding: 7rem;
-  padding: 5% 20%
+#pricing {
+  padding: 100px;
 }
 
-.pricing .card{
-  margin: 1rem;
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-.pricing .card .btn{
-  margin-top: auto;
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
